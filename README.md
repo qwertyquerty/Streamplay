@@ -1,5 +1,5 @@
 # Streamplay
-A little program for letting twitch chat play the games you stream by just typing the keys in chat!
+A little program for letting Twitch chat play the games you stream by just typing the keys in chat!
 
 
 ### The Config
