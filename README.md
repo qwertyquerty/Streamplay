@@ -31,4 +31,4 @@ Above is what the config file looks like. What do I put here? Here you go:
 * `channel`: This is your channel name. Enter it the exact way you enter it when you login to Twitch.
 * `keys`: This is a dictionary of keys that the chatters are allowed to use. Each number is the time the key is held in seconds.
 
-And there you go! Have fun!
+And there you go! Have fun! If you have any issues, please submit them.
