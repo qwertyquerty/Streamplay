@@ -10,17 +10,17 @@ A little program for letting Twitch chat play the games you stream by just typin
   "channel": "",
   "keys": {
     "up":0.4,
-	"left":0.4,
-	"down":0.4,
-	"right":0.4,
-	"a": 0.2,
-	"b": 0.2,
-	"x": 0.2,
-	"y": 0.2,
-	"q": 0.2,
-	"e": 0.2,
-	"shift": 0.2,
-	"enter": 0.2
+    "left":0.4,
+    "down":0.4,
+    "right":0.4,
+    "a": 0.2,
+    "b": 0.2,
+    "x": 0.2,
+    "y": 0.2,
+    "q": 0.2,
+    "e": 0.2,
+    "shift": 0.2,
+    "enter": 0.2
   }
 }
 ```
