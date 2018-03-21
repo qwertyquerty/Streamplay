@@ -60,7 +60,7 @@ while True:
         username = re.search(r"\w+", response).group(0)
         message = CHAT_MSG.sub("", response)
         message = message.strip("\r\n")
-        args = message.split(" ")
+        args = message.split()
         for arg in args:
             try:
                 if arg in keys.keys():
