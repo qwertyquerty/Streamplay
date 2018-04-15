@@ -4,13 +4,13 @@ import time
 import re
 try:
     import threading
-except:
+except ModuleNotFoundError:
     import pip
     pip.main(["install","threading"])
     import threading
 try:
     import keyboard
-except:
+except ModuleNotFoundError:
     import pip
     pip.main(["install","keyboard"])
     import keyboard
@@ -67,5 +67,5 @@ while True:
                     press(arg)
                     print(username+": "+arg)
 
-            except Exception as E:
+            except Exception:
                 pass
