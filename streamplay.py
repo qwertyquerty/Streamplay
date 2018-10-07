@@ -1,13 +1,15 @@
 import json
+import re
 import socket
 import time
-import re
+
 try:
     import threading
 except ModuleNotFoundError:
     import pip
     pip.main(["install","threading"])
     import threading
+
 try:
     import keyboard
 except ModuleNotFoundError:
